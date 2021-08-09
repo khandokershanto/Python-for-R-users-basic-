@@ -19,6 +19,7 @@ del(x)
 
 import numpy as np
 import pandas as pd
+import math
 
 df = np.random.randn(6,4)
 df = pd.DataFrame(df)
@@ -50,6 +51,17 @@ df.iat[3,3] #specified value of row/column
 #          Data Frame: Data selection
 
 df[df.R>0]
+
+##   common arithmatic operations
+x = [1,2,3,4,5,6]
+math.fsum(x)
+math.sqrt(x[3])
+np.mean(x)
+np.std(x)
+np.median(x)
+
+
+
 
 
 
